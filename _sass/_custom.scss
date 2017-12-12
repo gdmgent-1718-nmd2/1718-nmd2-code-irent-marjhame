@@ -19,16 +19,23 @@ h1{
 
 h3{
     font-family: 'Gilda Display', serif;
+    color: white;
 }
 //contact//
 .adres{
     margin-bottom: 1px;
 }
 .adres1{
-    padding-left: 40px;
+    padding-left: 35px;
 }
 
 //footer//
 .fa{
-    margin-right: 20px;
+    margin-right: 15px;
+}
+.fa-2x{
+    color: white;
+}
+.fa-2x:hover{
+    color: #eff3ed;
 }
