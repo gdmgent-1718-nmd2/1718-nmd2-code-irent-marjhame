@@ -21,8 +21,8 @@ Published: true
                 <li class="list-group-item">5 uur</li>
             </ul>
             <div class="card-body">
-                <a href="#" class="card-link">Wijzigen</a>
-                <a href="#" class="card-link">Verwijderen</a>
+                <a href="formulier.html" class="card-link">Wijzigen</a>
+                <a href="#" class="card-link" onclick="verwijder(event, this)">Verwijderen</a>
             </div>
             </div>
 </div>
@@ -38,8 +38,15 @@ Published: true
                 <li class="list-group-item">De hele dag</li>
             </ul>
             <div class="card-body">
-                <a href="#" class="card-link">Wijzigen</a>
-                <a href="#" class="card-link">Verwijderen</a>
+                <a href="formulier.html" class="card-link">Wijzigen</a>
+                <a href="#" class="card-link" onclick="verwijder(event, this)">Verwijderen</a>
             </div>
             </div>
+            <a role="button" class="btn btn-outline-secondary" href="bedankt.html">Bevestig</a>
 </div>
+<script>
+    function verwijder(event, self) {
+        event.preventDefault();
+        $(self).parents('.card').hide();
+    }
+</script>
