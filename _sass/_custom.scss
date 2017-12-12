@@ -21,6 +21,9 @@ h3{
     font-family: 'Gilda Display', serif;
     color: white;
 }
+p{
+    line-height: 20pt;
+}
 //contact//
 .adres{
     margin-bottom: 1px;
@@ -29,7 +32,21 @@ h3{
     padding-left: 35px;
 }
 
+//navigatie//
+.nav-marge{
+    margin-bottom: 30px;
+}
+
 //footer//
+.footer{
+    color: white;
+}
+.footer:hover{
+    color: #eff3ed;
+}
+.aju{
+    color: #929292;
+}
 .fa{
     margin-right: 15px;
 }
@@ -38,4 +55,13 @@ h3{
 }
 .fa-2x:hover{
     color: #eff3ed;
+}
+
+//button//
+.btn{
+    color: #929292;
+}
+.btn:hover{
+    background-color: #a9bec1;
+    border-color: #a9bec1;
 }
