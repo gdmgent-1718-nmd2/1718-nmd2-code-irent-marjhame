@@ -1,6 +1,7 @@
 .header{
     max-height: 100%;
     width: auto;
+    margin-bottom: 50px;
 }
 
 .end{
@@ -15,14 +16,16 @@
 
 h1{
     font-family: 'Gilda Display', serif;
+    margin-bottom: 30px;
 }
 
 h3{
     font-family: 'Gilda Display', serif;
     color: white;
+    margin-bottom: 30px;
 }
 p{
-    line-height: 20pt;
+    line-height: 25pt;
 }
 //contact//
 .adres{
@@ -33,8 +36,8 @@ p{
 }
 
 //navigatie//
-.nav-marge{
-    margin-bottom: 30px;
+.navbar-marge{
+    float: right;
 }
 
 //footer//
@@ -60,8 +63,51 @@ p{
 //button//
 .btn{
     color: #929292;
+    margin-top: 20px;
 }
 .btn:hover{
     background-color: #a9bec1;
-    border-color: #a9bec1;
 }
+
+//winkelmandje//
+.card-img-top{
+    margin-bottom: 20px;
+}
+
+.card-body{
+    background-color: #eff3ed;
+    border-top:  5px solid #cdd5ca;
+    text-align: center;
+}
+
+.card-body2{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #eff3ed;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.list-group-item{
+    background-color: #eff3ed;
+    text-align: center;
+}
+
+.card-link{
+    color: #929292;
+}
+
+.card-link:hover{
+    color: #a9bec1;
+}
+
+//reserveren//
+.reservatie{
+    font-size: 20px;
+}
+
+
