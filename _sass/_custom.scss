@@ -117,6 +117,29 @@ p{
 }
 
 //homepagina//
+@media (min-width: 992px) {
+.home-img{
+    width: 200px;
+}
+}
 
+.tussenlijn{
+    margin-bottom: 60px;
+}
 
+//form//
 
+input[type=text]{
+    background-color: #eff3ed;
+}
+
+input[type=text]:focus{
+    background-color: #a9bec1;
+    color: white;
+}
+
+//voorwaarden//
+.voorwaarden{
+    column-count: 2;
+    column-gap: 80px;
+}
