@@ -18,6 +18,10 @@ h1{
     font-family: 'Gilda Display', serif;
     margin-bottom: 30px;
 }
+h2{
+    font-family: 'Gilda Display', serif;
+    margin-bottom: 20px;
+}
 
 h3{
     font-family: 'Gilda Display', serif;
@@ -33,6 +37,7 @@ h4{
 p{
     line-height: 25pt;
 }
+
 //contact//
 .adres{
     margin-bottom: 1px;
@@ -73,6 +78,16 @@ p{
 }
 .btn:hover{
     background-color: #a9bec1;
+}
+
+.btn-secondary{
+    background-color: #a9bec1 !important; 
+    color: white !important;
+}
+
+.btn-secondary:hover{
+    background-color: #eff3ed !important; 
+    color: #929292 !important;
 }
 
 //winkelmandje//
@@ -127,15 +142,42 @@ p{
     margin-bottom: 60px;
 }
 
+
+input[type=button], select {
+    background-color: #eff3ed !important;
+}
+
+input[type=button]:focus{
+    background-color: #a9bec1 !important;
+    color: white;
+    outline: none;
+}
+
+.email{
+    width: 400px;
+}
+
+
 //form//
 
-input[type=text]{
-    background-color: #eff3ed;
+input[type=text], select, textarea {
+    background-color: #eff3ed !important;
+}
+
+textarea:focus{
+    background-color: #a9bec1 !important;
+    color: white !important;  
 }
 
 input[type=text]:focus{
-    background-color: #a9bec1;
+    background-color: #a9bec1 !important;
     color: white;
+}
+
+//bedankt//
+.data{
+    color: #a9bec1;
+    margin-bottom: 20px;
 }
 
 //voorwaarden//
