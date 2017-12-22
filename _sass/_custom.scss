@@ -76,10 +76,13 @@ p{
 //button//
 .btn{
     color: #929292;
-    margin-top: 20px;
 }
 .btn:hover{
     background-color: #a9bec1;
+}
+
+.btn-margin{
+    margin-top: 20px; 
 }
 
 .btn-secondary{
