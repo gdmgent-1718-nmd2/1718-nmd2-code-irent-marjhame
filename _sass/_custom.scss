@@ -38,6 +38,15 @@ p{
     line-height: 25pt;
 }
 
+a{
+    color: #a9bec1;
+}
+
+a:hover{
+    color: #929292;
+    text-decoration: none;
+}
+
 //contact//
 .adres{
     margin-bottom: 1px;
@@ -189,4 +198,18 @@ input[type=text]:focus{
 .voorwaarden{
     column-count: 2;
     column-gap: 80px;
+}
+
+//progressbar//
+.timebar{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.progress{
+    margin-bottom: 40px;
+}
+
+.progress-bar{
+    background-color: #a9bec1;
 }
